@@ -1,42 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Confirmation Page</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        .image-container {
-            display: none; /* Initially hide the image container */
-        }
-    </style>
-</head>
-<body>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-        <div>
-            <h1 class="header_text">Yayyyy! Finally sayanshi again🤗</h1>
-        </div>
-        <div class="gif_container">
-            <img
-                src="https://i.postimg.cc/wTDG30TB/yes.gif"
-                alt="Cute animated illustration"
-            />
-        </div>
-        <button class="btn" id="yesButton" onclick="toggleImage()">CLICK HERE!!!</button>
-        <div class="image-container" id="imageContainer">
-            <img
-                src="D:\Pictures\Goa\IMG_20220424_023832.jpg"
-                alt="Image"
-            />
-        </div>
+      <div>
+        <h1 class="header_text">Yayyyy! Finally sayanshi again🤗</h1>
+      </div>
+      <div class="gif_container">
+        <img
+          src="https://i.postimg.cc/wTDG30TB/yes.gif"
+          alt="Cute animated illustration"
+        />
+      </div>
+      <button class="btn" id="yesButton" onclick="nextPage()">
+        Let's Be Together Always
+      </button>
     </div>
-
-    <script>
-        // Function to toggle the visibility of the image container
-        function toggleImage() {
-            var imageContainer = document.getElementById('imageContainer');
-            imageContainer.style.display = (imageContainer.style.display === 'none') ? 'block' : 'none';
-        }
-    </script>
-</body>
+  </body>
 </html>
